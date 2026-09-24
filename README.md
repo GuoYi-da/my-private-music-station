@@ -19,5 +19,8 @@ python -m http.server 8765
 - `about.html`：网站简介、作者署名与许可信息
 - `styles.css`：三页共用的响应式样式
 - `assets/audio/`：每首歌曲的 MP3 和 Ogg 文件
+- `assets/fonts/`：网页标题使用的霞鹜文楷字体及授权文件
 
 音乐由 Kevin MacLeod 创作，均按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 使用。曲目文件及逐首来源链接见 [关于页](about.html)。MP3 文件使用 Wikimedia Commons 提供的 Ogg 转码版本；本站未剪辑曲目内容。
+
+标题字体采用 [霞鹜文楷](https://github.com/lxgw/LxgwWenKai)，按 [SIL Open Font License 1.1](assets/fonts/OFL.txt) 使用。网页字体文件仅包含当前页面用到的字形；若新增标题文字，需要重新生成字体子集，或改用完整字体文件。
